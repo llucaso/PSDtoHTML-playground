@@ -98,6 +98,9 @@ html, body {
   background-size: cover;
   background-position: 100%;
   height: 100vh;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
   justify-content: center;
   margin: 0px; }
@@ -116,7 +119,9 @@ html, body {
     text-align: center;
     font-family: 'lato';
     color: white;
-    display: -webkit-flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
     align-self: flex-end;
     top: 65%;
@@ -136,13 +141,17 @@ html, body {
 
 .logo2 {
   position: absolute;
-  display: -webkit-flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
   align-self: flex-end;
   bottom: 20px; }
 
 .aboutUsContainer {
-  display: -webkit-flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
   justify-content: center;
   color: #3c3c3c;
@@ -163,7 +172,9 @@ html, body {
   margin-top: 20px; }
 
 .aboutUs {
-  display: -webkit-flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
   position: relative;
   justify-content: center;
@@ -201,7 +212,9 @@ html, body {
 .serviceContainer {
   background-image: url("../new-images/Layer 4.jpg");
   background-size: cover;
-  display: -webkit-flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
   justify-content: center;
   color: #3c3c3c;
@@ -222,7 +235,9 @@ html, body {
   margin-top: 20px; }
 
 .services {
-  display: -webkit-flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
   position: relative;
   justify-content: center;
@@ -258,7 +273,9 @@ html, body {
     line-height: 20px; }
 
 .WhatContainer {
-  display: -webkit-flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
   justify-content: center;
   color: #3c3c3c;
@@ -279,7 +296,9 @@ html, body {
   margin-top: 20px; }
 
 .whatWeDo {
-  display: -webkit-flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -339,7 +358,9 @@ html, body {
     font-weight: bolder; }
 
 .contactContainer {
-  display: -webkit-flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
   justify-content: center;
   color: #3c3c3c;
@@ -360,7 +381,9 @@ html, body {
   margin-top: 20px; }
 
 .contact {
-  display: -webkit-flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -410,7 +433,9 @@ html, body {
       background-color: #7E9FED; }
 
 .footer {
-  display: -webkit-flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
   justify-content: center;
   font-family: 'lato';
